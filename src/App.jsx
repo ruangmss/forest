@@ -1,5 +1,11 @@
+import HeadDecoration from './components/HeadDecoration';
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <HeadDecoration />
+    </>
+  );
 };
 
 export default App;
