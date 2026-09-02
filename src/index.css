@@ -1,11 +1,10 @@
 @import 'tailwindcss';
 
 @utility container {
+  width: 100%;
+  max-width: 1200px;
   margin-inline: auto;
-  padding: 1rem;
-  @media (max-width: 640px) {
-    padding: 0.5rem;
-  }
+  padding: 1.5rem 2rem;
 }
 
 @theme {
