@@ -8,6 +8,8 @@
 }
 
 @theme {
+  --animate-menu: menu-slide-in 300ms ease;
+
   --color-primary-200: #acef75;
   --color-primary-300: #91ee77;
   --color-primary-400: #17e880;
@@ -15,4 +17,16 @@
   --color-primary-800: #16281f;
   --color-primary-900: #0f1c15;
   --color-primary-950: #030504;
+}
+
+@keyframes menu-slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
