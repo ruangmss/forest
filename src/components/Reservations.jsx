@@ -21,11 +21,11 @@ const Reservations = () => {
         <span className="text-primary-200 tracking-wide text-center">
           CONECTE-SE COM A NATUREZA
         </span>
-        <h2 className="text-5xl font-serif text-white  text-center font-semibold max-sm:text-4xl max-w-full">
+        <h2 className="font-serif text-balance text-5xl text-white font-semibold text-center max-md:text-4xl">
           Cada Som, Cada Momento, Uma Nova Descoberta
         </h2>
 
-        <ul className="flex gap-6 *:bg-primary-800 *:rounded-3xl *:flex *:flex-col *:gap-4 *:p-6 *:justify-center max-md:flex-col">
+        <ul className="grid grid-cols-3 gap-6 *:bg-primary-800 *:rounded-2xl *:flex *:flex-col *:gap-4 *:p-6 *:justify-center max-md:grid-cols-1">
           <li>
             <h3 className="text-xl text-primary-300 font-serif font-semibold">Lua Nova</h3>
 

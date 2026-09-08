@@ -5,12 +5,12 @@ import defaultImage from '../assets/images/default.svg';
 
 const Refuge = () => {
   return (
-    <section className="grid grid-cols-5 gap-9 container max-lg:grid-cols-1">
+    <section className="container grid grid-cols-5 gap-6 max-md:grid-cols-1">
       <div
-        className="col-span-2 flex flex-col gap-6 bg-contain bg-center bg-no-repeat h-full justify-end"
+        className="col-span-2 flex flex-col gap-6 bg-contain bg-center bg-no-repeat h-full justify-end max-md:col-span-1"
         style={{ backgroundImage: `url(${defaultImage})` }}
       >
-        <h2 className="font-serif text-balance text-4xl text-white font-semibold">
+        <h2 className="font-serif text-balance text-5xl text-white font-semibold max-md:text-4xl">
           Refúgio Natural
         </h2>
 
@@ -38,8 +38,8 @@ const Refuge = () => {
         </ul>
       </div>
 
-      <div className="col-span-3 grid grid-cols-3 gap-6  *:*:w-full  *:*:object-cover *:*:rounded-xl max-md:grid-cols-2 max-md:gap-4">
-        <div className="col-span-3 relative">
+      <div className="col-span-3 grid grid-cols-3 gap-6 [&_img]:w-full [&_img]:object-cover [&_img]:rounded-2xl max-md:col-span-1 max-md:grid-cols-2">
+        <div className="col-span-full relative">
           <img src={house1} alt="Imagem da cabine Ruby" className="h-52" />
           <span className="text-white text-sm p-2 rounded-full bg-black/30 absolute top-2 right-2 max-w-max">
             RUBY

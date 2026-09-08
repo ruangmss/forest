@@ -16,8 +16,8 @@ const Rhythm = () => {
       </h2>
 
       <ol
-        className="flex gap-6 *:bg-primary-900 *:p-6 *:rounded-2xl *:flex
-       *:flex-col *:gap-5 *:transition *:duration-200 md:*:hover:-translate-y-2 max-md:flex-col"
+        className="grid grid-cols-3 gap-6 *:bg-primary-900 *:p-6 *:rounded-2xl *:flex
+       *:flex-col *:gap-4 *:transition *:duration-200 md:*:hover:-translate-y-2 max-md:grid-cols-1"
       >
         <li>
           <div className="rounded-full p-2 bg-primary-300 border-2 border-primary-700 max-w-max">
@@ -33,7 +33,7 @@ const Rhythm = () => {
           <span className="text-primary-300">05:40 - 07:00</span>
         </li>
 
-        <li className="translate-y-5 max-md:translate-y-0">
+        <li>
           <div className="rounded-full p-2 bg-primary-300 border-2 border-primary-700 max-w-max">
             <img src={dayIcon} />
           </div>
