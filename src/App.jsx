@@ -5,6 +5,7 @@ import useMedia from './hooks/useMedia';
 import Hero from './components/Hero';
 import Refuge from './components/Refuge';
 import Reservations from './components/Reservations';
+import Adventure from './components/Adventure';
 
 const App = () => {
   const mobile = useMedia('(max-width: 768px)');
@@ -21,6 +22,7 @@ const App = () => {
       <Hero />
       <Refuge />
       <Reservations />
+      <Adventure />
     </div>
   );
 };
