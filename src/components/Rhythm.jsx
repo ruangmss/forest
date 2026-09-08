@@ -17,7 +17,7 @@ const Rhythm = () => {
 
       <ol
         className="flex gap-6 *:bg-primary-900 *:p-6 *:rounded-2xl *:flex
-       *:flex-col *:gap-5 *:transition *:duration-200 *:hover:-translate-y-2 max-md:flex-col"
+       *:flex-col *:gap-5 *:transition *:duration-200 md:*:hover:-translate-y-2 max-md:flex-col"
       >
         <li>
           <div className="rounded-full p-2 bg-primary-300 border-2 border-primary-700 max-w-max">
