@@ -7,6 +7,12 @@
   padding: 1.5rem 2rem;
 }
 
+@layer base {
+  img {
+    @apply block max-w-full;
+  }
+}
+
 @theme {
   --animate-menu: menu-slide-in 300ms ease;
 
