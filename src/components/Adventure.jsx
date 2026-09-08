@@ -10,7 +10,7 @@ const Adventure = () => {
       </h2>
 
       <div className="grid grid-cols-3 gap-6 max-md:gap-4 max-[560px]:grid-cols-1">
-        <div className="group relative aspect-square overflow-hidden cursor-pointer rounded-2xl">
+        <div className="group relative aspect-square overflow-hidden rounded-2xl">
           <img
             src={canoeing}
             alt="Imagem de canoagem"
@@ -22,7 +22,7 @@ const Adventure = () => {
           </span>
         </div>
 
-        <div className="group relative aspect-square overflow-hidden cursor-pointer rounded-2xl">
+        <div className="group relative aspect-square overflow-hidden rounded-2xl">
           <img
             src={observation}
             alt="Imagem de obeservação noturna"
@@ -34,7 +34,7 @@ const Adventure = () => {
           </span>
         </div>
 
-        <div className="group relative aspect-square overflow-hidden cursor-pointer rounded-2xl">
+        <div className="group relative aspect-square overflow-hidden rounded-2xl">
           <img
             src={wildlife}
             alt="Imagem de vida selvagem"
