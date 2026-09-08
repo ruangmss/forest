@@ -3,6 +3,7 @@ import HeadDecoration from './components/HeadDecoration';
 import Header from './components/Header';
 import useMedia from './hooks/useMedia';
 import Hero from './components/Hero';
+import Refuge from './components/Refuge';
 
 const App = () => {
   const mobile = useMedia('(max-width: 768px)');
@@ -17,6 +18,7 @@ const App = () => {
       <HeadDecoration />
       <Header mobile={mobile} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Hero />
+      <Refuge />
     </div>
   );
 };
