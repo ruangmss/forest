@@ -2,6 +2,7 @@ import React from 'react';
 import HeadDecoration from './components/HeadDecoration';
 import Header from './components/Header';
 import useMedia from './hooks/useMedia';
+import Hero from './components/Hero';
 
 const App = () => {
   const mobile = useMedia('(max-width: 768px)');
@@ -15,6 +16,7 @@ const App = () => {
 
       <HeadDecoration />
       <Header mobile={mobile} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Hero />
     </div>
   );
 };
