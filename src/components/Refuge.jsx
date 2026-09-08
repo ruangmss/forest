@@ -7,7 +7,7 @@ const Refuge = () => {
   return (
     <section className="grid grid-cols-5 gap-9 container max-lg:grid-cols-1">
       <div
-        className="col-span-2 flex flex-col gap-6 bg-contain bg-bottom bg-no-repeat h-full justify-end"
+        className="col-span-2 flex flex-col gap-6 bg-contain bg-center bg-no-repeat h-full justify-end"
         style={{ backgroundImage: `url(${defaultImage})` }}
       >
         <h2 className="font-serif text-balance text-4xl text-white font-semibold">
