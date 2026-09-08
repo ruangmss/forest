@@ -4,6 +4,7 @@ import Header from './components/Header';
 import useMedia from './hooks/useMedia';
 import Hero from './components/Hero';
 import Refuge from './components/Refuge';
+import Reservations from './components/Reservations';
 
 const App = () => {
   const mobile = useMedia('(max-width: 768px)');
@@ -19,6 +20,7 @@ const App = () => {
       <Header mobile={mobile} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Hero />
       <Refuge />
+      <Reservations />
     </div>
   );
 };
