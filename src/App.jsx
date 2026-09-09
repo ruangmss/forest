@@ -8,6 +8,7 @@ import Reservations from './components/Reservations';
 import Adventure from './components/Adventure';
 import Rhythm from './components/Rhythm';
 import Contact from './components/Contact';
+import Partners from './components/Partners';
 
 const App = () => {
   const mobile = useMedia('(max-width: 768px)');
@@ -27,6 +28,7 @@ const App = () => {
       <Adventure />
       <Rhythm />
       <Contact />
+      <Partners />
     </div>
   );
 };
