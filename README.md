@@ -72,6 +72,6 @@ Os títulos em tipografia serifada, os cantos arredondados e as animações suti
 
 Projeto desenvolvido por **Ruan Gomes**, a partir do curso de **Tailwind CSS** da **Origamid**, com implementação da interface em React.
 
-Os créditos pela proposta original, pelo design e pelo conteúdo didático do projeto são da **Origamid**.
+Os créditos pela proposta original são da **Origamid**.
 
 _“A constância no aprendizado transforma interesse em domínio.”_
