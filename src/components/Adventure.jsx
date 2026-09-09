@@ -4,7 +4,7 @@ import observation from '../assets/images/observation.jpg';
 
 const Adventure = () => {
   return (
-    <section className="flex flex-col gap-6 container">
+    <section className="flex flex-col gap-6 container" id="aventuras">
       <h2 className="font-serif text-balance text-5xl text-white font-semibold text-center max-md:text-4xl">
         Escolha sua Próxima Aventura
       </h2>

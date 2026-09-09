@@ -5,7 +5,7 @@ import defaultImage from '../assets/images/default.svg';
 
 const Refuge = () => {
   return (
-    <section className="container grid grid-cols-5 gap-6 max-md:grid-cols-1">
+    <section className="container grid grid-cols-5 gap-6 max-md:grid-cols-1" id="cabines">
       <div
         className="col-span-2 flex flex-col gap-6 bg-contain bg-center bg-no-repeat h-full justify-end max-md:col-span-1"
         style={{ backgroundImage: `url(${defaultImage})` }}

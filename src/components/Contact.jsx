@@ -7,7 +7,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="flex justify-between gap-8 container max-lg:flex-col">
+    <section className="flex justify-between gap-8 container max-lg:flex-col" id="contato">
       <div className="flex flex-col gap-8">
         <div className="flex flex-col gap-3">
           <h2 className="text-3xl font-serif text-primary-300 font-semibold">Nossos Contatos</h2>

@@ -16,7 +16,7 @@ const Reservations = () => {
   const year = new Date().getFullYear();
 
   return (
-    <section className="bg-primary-900">
+    <section className="bg-primary-900" id="reservas">
       <div className="flex flex-col gap-6 container">
         <span className="text-primary-200 tracking-wide text-center">
           CONECTE-SE COM A NATUREZA

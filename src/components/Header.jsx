@@ -10,15 +10,15 @@ const Header = ({ mobile, menuOpen, setMenuOpen }) => {
         <nav>
           <ul className="flex *:*:px-3 *:*:py-2 *:*:text-lg *:*:text-white *:*:transition *:*:rounded-lg *:*:hover:bg-primary-900">
             <li>
-              <a href="#acomodacoes">Acomodações</a>
+              <a href="#cabines">Cabines</a>
             </li>
 
             <li>
-              <a href="#eventos">Eventos</a>
+              <a href="#reservas">Reservas</a>
             </li>
 
             <li>
-              <a href="#experiencias">Experiências</a>
+              <a href="#aventuras">Aventuras</a>
             </li>
 
             <li>
