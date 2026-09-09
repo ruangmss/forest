@@ -52,15 +52,15 @@ const Header = ({ mobile, menuOpen, setMenuOpen }) => {
                    [&_a:hover]:bg-primary-900"
           >
             <li>
-              <a href="#acomodacoes">Acomodações</a>
+              <a href="#cabines">Cabines</a>
             </li>
 
             <li>
-              <a href="#eventos">Eventos</a>
+              <a href="#reservas">Reservas</a>
             </li>
 
             <li>
-              <a href="#experiencias">Experiências</a>
+              <a href="#aventuras">Aventuras</a>
             </li>
 
             <li>
