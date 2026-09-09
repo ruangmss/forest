@@ -27,7 +27,7 @@ O projeto foi desenvolvido com foco em estilização utilitária, responsividade
 - 🌅 Apresentação das atividades ao longo do dia
 - 📱 Interface responsiva com menu mobile
 - 🧭 Navegação entre as seções com rolagem suave
-- ✨ Animações de entrada e efeitos ao passar o mouse
+- 🖱️ Animações de entrada e efeitos ao passar o mouse
 - 📝 Formulário de contato demonstrativo com validação nativa, sem envio de mensagens
 - 🤝 Exibição de marcas parceiras e informações de contato
 
