@@ -27,7 +27,7 @@ O projeto foi desenvolvido com foco em estilização utilitária, responsividade
 - 🌅 Apresentação das atividades ao longo do dia
 - 📱 Interface responsiva com menu mobile
 - 🧭 Navegação entre as seções com rolagem suave
-- ✨ Animações de entrada e efeitos ao passar o mouse
+- 🖱️ Animações de entrada e efeitos ao passar o mouse
 - 📝 Formulário de contato demonstrativo com validação nativa, sem envio de mensagens
 - 🤝 Exibição de marcas parceiras e informações de contato
 
@@ -72,6 +72,6 @@ Os títulos em tipografia serifada, os cantos arredondados e as animações suti
 
 Projeto desenvolvido por **Ruan Gomes**, a partir do curso de **Tailwind CSS** da **Origamid**, com implementação da interface em React.
 
-Os créditos pela proposta original, pelo design e pelo conteúdo didático do projeto são da **Origamid**.
+Os créditos pela proposta original são da **Origamid**.
 
 _“A constância no aprendizado transforma interesse em domínio.”_
