@@ -7,12 +7,12 @@ const Footer = () => {
     <footer className="container">
       <div className="flex bg-primary-900 rounded-2xl p-8 gap-6 justify-between text-white items-end max-lg:bg-transparent max-lg:flex-col max-lg:items-start max-lg:p-0">
         <div className="flex flex-col gap-3">
-          <a
+          <button
             className="max-w-max cursor-pointer"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           >
             <img src={forest} alt="Logo Forest" />
-          </a>
+          </button>
           <span>Conecte-se com a natureza</span>
         </div>
 
@@ -20,15 +20,15 @@ const Footer = () => {
 
         <ul className="flex gap-4 [&>li>a]:hover:text-primary-300 [&>li>a]:transition [&>li>a]:cursor-pointer flex-wrap">
           <li>
-            <a>Instagram</a>
+            <button>Instagram</button>
           </li>
 
           <li>
-            <a>LinkedIn</a>
+            <button>LinkedIn</button>
           </li>
 
           <li>
-            <a>Facebook</a>
+            <button>Facebook</button>
           </li>
         </ul>
       </div>
