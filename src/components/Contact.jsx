@@ -36,7 +36,7 @@ const Contact = () => {
       </div>
 
       <form
-        className="p-6 grid grid-cols-2 rounded-2xl gap-3 w-[70%] bg-primary-900 [&>label]:flex [&>label]:flex-col [&>label]:gap-1 [&>label]:text-white [&_:is(input,textarea)]:bg-primary-800 [&_:is(input,textarea)]:rounded-lg [&_:is(input,textarea)]:p-2 [&_:is(input,textarea)]:outline-none [&_:is(input,textarea):focus]:ring-2 [&_:is(input,textarea):focus]:ring-primary-400 max-lg:w-full max-lg:grid-cols-1"
+        className="p-6 grid grid-cols-2 rounded-2xl gap-3 w-[70%] bg-primary-900 [&>label]:flex [&>label]:flex-col [&>label]:gap-1 [&>label]:text-white [&_:is(input,textarea)]:bg-primary-800 [&_:is(input,textarea)]:rounded-lg [&_:is(input,textarea)]:p-2 [&_:is(input,textarea)]:outline-none max-lg:w-full max-lg:grid-cols-1"
         onSubmit={submitForm}
       >
         <label htmlFor="name" className="col-span-full">

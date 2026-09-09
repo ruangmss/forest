@@ -11,6 +11,10 @@
   img {
     @apply block max-w-full;
   }
+
+  *:focus-visible {
+    @apply outline-none ring-2 ring-primary-400;
+  }
 }
 
 @theme {
