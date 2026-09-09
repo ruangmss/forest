@@ -15,12 +15,7 @@ const Hero = () => {
         </div>
 
         <div className="flex justify-between gap-7 max-md:flex-col max-md:gap-2">
-          <span className="text-white">
-            Entre os melhores locais para visitar em{' '}
-            <a className="underline cursor-pointer decoration-1 underline-offset-3 transition hover:text-primary-200">
-              {year}
-            </a>
-          </span>
+          <span className="text-white">Entre os melhores locais para visitar em {year}</span>
 
           <span className="text-white">Recomendado por Caravan | Revista Nacional</span>
         </div>
