@@ -8,7 +8,7 @@ const Header = ({ mobile, menuOpen, setMenuOpen }) => {
 
       {!mobile && (
         <nav>
-          <ul className="flex *:*:px-3 *:*:py-2 *:*:text-lg *:*:text-white *:*:transition *:*:rounded-lg *:*:hover:bg-primary-900">
+          <ul className="animate-desktop-menu flex *:*:px-3 *:*:py-2 *:*:text-lg *:*:text-white *:*:transition *:*:rounded-lg *:*:hover:bg-primary-900">
             <li>
               <a href="#cabines">Cabines</a>
             </li>

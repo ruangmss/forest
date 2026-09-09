@@ -15,6 +15,7 @@
 
 @theme {
   --animate-menu: menu-slide-in 300ms ease;
+  --animate-desktop-menu: desktop-menu-enter 350ms ease-out;
 
   --color-primary-200: #acef75;
   --color-primary-300: #91ee77;
@@ -34,5 +35,17 @@
   to {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+@keyframes desktop-menu-enter {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
