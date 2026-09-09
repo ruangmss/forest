@@ -7,13 +7,16 @@ const Footer = () => {
     <footer className="container">
       <div className="flex bg-primary-900 rounded-2xl p-8 gap-6 justify-between text-white items-end max-lg:bg-transparent max-lg:flex-col max-lg:items-start max-lg:py-0">
         <div className="flex flex-col gap-3">
-          <a className="max-w-max cursor-pointer">
+          <a
+            className="max-w-max cursor-pointer"
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          >
             <img src={forest} alt="Logo Forest" />
           </a>
           <span>Conecte-se com a natureza</span>
         </div>
 
-        <p>{year} Forest. Todos os direitos reservados.</p>
+        <p>© {year} Forest. Todos os direitos reservados.</p>
 
         <ul className="flex gap-4 [&>li>a]:hover:text-primary-300 [&>li>a]:transition [&>li>a]:cursor-pointer flex-wrap">
           <li>
