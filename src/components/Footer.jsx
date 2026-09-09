@@ -18,7 +18,7 @@ const Footer = () => {
 
         <p>© {year} Forest. Todos os direitos reservados.</p>
 
-        <ul className="flex gap-4 [&>li>a]:hover:text-primary-300 [&>li>a]:transition [&>li>a]:cursor-pointer flex-wrap">
+        <ul className="flex gap-4 [&>li>button]:hover:text-primary-300 [&>li>button]:transition [&>li>button]:cursor-pointer flex-wrap">
           <li>
             <button>Instagram</button>
           </li>
