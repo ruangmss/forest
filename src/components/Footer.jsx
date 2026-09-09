@@ -5,7 +5,7 @@ const Footer = () => {
 
   return (
     <footer className="container">
-      <div className="flex bg-primary-900 rounded-2xl p-8 gap-6 justify-between text-white items-end max-lg:bg-transparent max-lg:flex-col max-lg:items-start max-lg:py-0">
+      <div className="flex bg-primary-900 rounded-2xl p-8 gap-6 justify-between text-white items-end max-lg:bg-transparent max-lg:flex-col max-lg:items-start max-lg:p-0">
         <div className="flex flex-col gap-3">
           <a
             className="max-w-max cursor-pointer"
